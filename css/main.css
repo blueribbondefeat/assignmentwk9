@@ -1,0 +1,36 @@
+body {
+  font-family: garamond;
+  color: darkblue;
+  font-size: 20px; }
+  body h1 {
+    color: blue;
+    font-size: 40px; }
+  body li {
+    list-style: none; }
+
+.right, .right-emphasis {
+  margin-left: 33%; }
+
+.right-emphasis {
+  line-height: 110%; }
+
+nav {
+  border: 4px solid red;
+  padding: 10px;
+  -webkit-border-radius: 40px;
+  border-radius: 40px;
+  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.5); }
+  nav li {
+    outline: 1px solid red;
+    list-style: none;
+    padding: 10px;
+    margin-right: 5px;
+    background-color: white;
+    color: purple;
+    display: inline-block;
+    width: 200px; }
+    nav li a span {
+      color: red; }
+
+/*# sourceMappingURL=main.css.map */

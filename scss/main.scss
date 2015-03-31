@@ -1,0 +1,63 @@
+//this bourbon shit isn't working!!
+// @import "bourbon/bourbon";
+@import "partials/nav";
+@import "partials/colors";
+@import "partials/mixins";
+
+body {
+	font-family: garamond;
+	color: $color-body-standard;
+	font-size: 20px;
+
+
+
+	h1{
+		color: $color-body-big;
+		font-size: 40px;
+	}
+
+	li{
+		list-style: $list-style-type;
+	}
+}
+
+.right {
+	margin-left: 33%;
+}
+
+.right-emphasis {
+	@extend .right;
+	line-height: 110%;
+}
+
+nav {
+	border: 4px solid $color-outline;
+	padding: 10px;
+	
+	@include border-radius(40px);
+	@include black(.2);
+	@include white(.5);
+
+
+	ul {
+		// width: $base-size;
+
+	}
+
+	li {
+		outline: 1px solid $color-outline;
+		list-style: $list-style-type;
+		padding: $list-padding;
+		margin-right: $list-margin-right;
+		background-color: $color-nav-button;
+		color: $color-nav-font-color;
+		display: $list-display;
+		width: $list-base-size;
+
+		a {
+			span {
+				color: red;		
+			}
+		}
+	}
+}

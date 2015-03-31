@@ -1,0 +1,54 @@
+//this shit isn't working!!
+@import 'bourbon/bourbon';
+// @import "../partials/colors";
+// @import "colors";
+// @import 'mixins';
+
+//colors
+$color-body-bg: blue;
+$color-nav-button: white;
+$color-outline: red;
+$color-body-copy: #fff;
+$color-nav-font-color: purple;
+
+
+
+//nav
+$list-base-size: 200px;
+$list-style-type: none;
+$list-padding: 10px;
+$list-margin-right: 5px;
+// $display: inline;
+$list-display: inline-block
+
+nav {
+	border: 4px solid $color-outline;
+	padding: 10px;
+	
+	@include border-radius(40px);
+	@include black(.2);
+	// @include white(.5);
+
+
+	ul {
+		// width: $base-size;
+
+	}
+
+	li {
+		outline: 1px solid $color-outline;
+		list-style: $list-style-type;
+		padding: $p;
+		margin-right: $mr;
+		background-color: $color-nav-button;
+		color: $color-nav-font-color;
+		display: $display;
+		width: $base-size;
+
+		a {
+			span {
+				color: red;		
+			}
+		}
+	}
+}

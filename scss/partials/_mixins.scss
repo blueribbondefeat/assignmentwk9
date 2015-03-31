@@ -1,0 +1,13 @@
+@mixin border-radius($radius: 10px) {
+	-webkit-border-radius: $radius;
+	border-radius: $radius;
+}
+
+@mixin black($opacity: .5){
+	background-color: rgba(black, $opacity);
+}
+
+@mixin white($opacity){
+	background-color: rgba(white, $opacity);
+
+}
